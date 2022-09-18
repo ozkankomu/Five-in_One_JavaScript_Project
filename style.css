@@ -1,0 +1,27 @@
+#body {
+  background-color: #212529;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+h1 {
+  text-shadow: 1px 1px 3px rgb(181, 175, 175);
+  color: rgb(93, 4, 4);
+}
+
+.card {
+  box-shadow: 2px 2px 3px white;
+}
+
+img {
+  height: 300px;
+}
+
+.card-img-topp {
+  width: auto;
+  height: auto;
+}

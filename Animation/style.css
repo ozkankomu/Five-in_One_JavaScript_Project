@@ -1,0 +1,71 @@
+/*****  GAME ANIMATION ******/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-images {
+  background-image: url(./img/Img_1.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.ground {
+  width: 5000%;
+  height: 150px;
+  background-image: url(./img/Img_02.png);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  /* animation: right 5s linear infinite; */
+}
+
+.car {
+  position: absolute;
+  bottom: 55px;
+  left: 30%;
+  /* animation: pop-up 0.6s linear infinite; */
+}
+
+@keyframes right {
+  100% {
+    transform: translate(-2000000px);
+  }
+}
+/* animasyon */
+
+@keyframes pop-up {
+  0% {
+    transform: translatey(-1px);
+  }
+
+  50% {
+    transform: translatey(0);
+  }
+
+  100% {
+    transform: translatey(1px);
+  }
+}
+
+.right {
+  animation: pop-up 0.7s linear infinite;
+}
+
+.pop-up {
+  animation: right 10000s linear infinite;
+}

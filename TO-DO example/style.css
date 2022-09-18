@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/1489353.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.btn {
+  width: 6rem;
+  height: 2.3rem;
+}
+
+section .lang-input {
+  width: 20rem;
+  height: 2.3rem;
+}
+
+.green_check {
+  color: rgb(30, 245, 30);
+  border: 2px solid rgb(17, 42, 187);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.red_check {
+  color: rgb(171, 5, 5);
+  border: 2px solid rgb(4, 21, 118);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.red_trash {
+  color: rgb(146, 5, 5);
+}
+
+.lii {
+  width: 600px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3px;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 0.3rem;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px black;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 2px 8px;
+}
+
+tr {
+  border: 1px solid rgba(0, 0, 139, 0.286);
+  font-size: 1.2rem;
+  text-align: left;
+  display: block;
+  color: darkred;
+  text-shadow: 1px 1px 3px black;
+}
+
+td {
+  font-weight: bold;
+}
+
+i {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+input {
+  border-radius: 10px;
+  width: 100%;
+}
+
+p {
+  color: rgb(122, 4, 4);
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: rgb(85, 6, 6);
+  text-shadow: 1px 1px 3px black;
+}
