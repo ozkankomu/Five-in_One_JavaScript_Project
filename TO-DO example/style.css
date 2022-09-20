@@ -38,7 +38,7 @@ section .lang-input {
 }
 
 .lii {
-  width: 600px;
+  width: 90%;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
