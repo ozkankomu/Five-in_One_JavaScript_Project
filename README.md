@@ -69,8 +69,6 @@ JS_PROJECT
 
 
 
-
-
 ## Author
 
 - Author - [Ozkan]
